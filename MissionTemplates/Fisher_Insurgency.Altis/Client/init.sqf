@@ -14,7 +14,7 @@ diag_log "#---------------------------------------------------------------------
 private _startTime = diag_tickTime;
 
 diag_log "FISH_INS_CLIENT:: LOADING PLAYER EVENT HANDLERS";
-player addEventHandler["Killed",{_this call fish_ins_fnc_onPlayerKilled}];
+player addEventHandler["Killed", {_this call fish_ins_fnc_onPlayerKilled}];
 diag_log "FISH_INS_CLIENT:: PLAYER EVENT HANDLERS LOADED";
 
 diag_log format["FISH_INS_CLIENT:: LOADING COMPLETE! TIME ELAPSED %1 SECONDS",(diag_tickTime) - _startTime];

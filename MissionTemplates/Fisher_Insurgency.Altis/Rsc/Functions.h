@@ -9,9 +9,9 @@
 class fish_ins
 {
     tag = "fish_ins";
-    class server
+    class client
     {
-        file = "Server\functions";
+        file = "Client\functions";
         
         class onPlayerKilled {};
     }
