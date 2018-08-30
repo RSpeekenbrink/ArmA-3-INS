@@ -1,2 +1,5 @@
 #Exclude Raw Images
 /Images/
+
+#Exclude temp mission files
+/MissionTemplates/~*
