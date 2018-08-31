@@ -23,11 +23,13 @@ if (ins_respawn) then {
 //Make camera background
 ins_spawn_camera = "CAMERA" camCreate [5171.17,21965,0.691406];
 showCinemaBorder TRUE;
+//Make spawn dialog
+if (!(createDialog "Ins_RscSpawnSelection")) exitWith {camDestroy ins_spawn_camera; [] call fish_ins_fnc_showSpawnScreen;};
 ins_spawn_camera cameraEffect ["internal", "BACK"];
 ins_spawn_camera camSetDir [5169.29,22035,34.5247];
 ins_spawn_camera camSetFOV 1;
 ins_spawn_camera camSetFocus [50,1];
 ins_spawn_camera camCommit 0;
 
-//Make spawn dialog
-//if (!(createDialog "Ins_RscSpawnSelection")) exitWith {[] call fish_ins_fnc_showSpawnScreen;};
+
+

@@ -6,4 +6,5 @@
     Description:    Defines all dialogs
 */
 
+#include "Dialogs\defines.hpp"
 #include "Dialogs\spawnSelection.hpp"

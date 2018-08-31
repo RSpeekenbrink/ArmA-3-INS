@@ -54,9 +54,10 @@ class CfgSounds
 };
 
 //Gui
+#include "Rsc\Dialogs.hpp"
 class RscTitles
 {
-	#include "Rsc\Dialogs.hpp"
+	
 };
 
 //Functions
