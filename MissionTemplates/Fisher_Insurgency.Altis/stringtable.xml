@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Project name="Fish Insurgency">
+	<Package name="Spawn_Menu">
+        <Key ID="STR_Spawn_Title">
+            <Original>Spawn Selection</Original>
+            <Czech>potěr Selection</Czech>
+            <Spanish>Selección de Spawn</Spanish>
+            <Russian></Russian>
+            <German>Spawn Auswahl</German>
+            <French>Selection du Spawn</French>
+            <Italian>Selezione Spawn</Italian>
+            <Portuguese>Locais para Começar</Portuguese>
+            <Polish>Wybierz punkt odrodzenia</Polish>
+        </Key>
+        <Key ID="STR_Spawn_Spawn">
+            <Original>Spawn</Original>
+            <Czech>Potěr</Czech>
+            <Spanish>Spawn</Spanish>
+            <Russian></Russian>
+            <German>Spawnen</German>
+            <French>Spawn</French>
+            <Italian>Spawn</Italian>
+            <Portuguese>Começar</Portuguese>
+            <Polish>Odradzanie</Polish>
+        </Key>
+    </Package>
+</Project>

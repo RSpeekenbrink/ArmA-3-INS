@@ -56,13 +56,13 @@ class CfgSounds
 //Gui
 class RscTitles
 {
-	
+	#include "Rsc\Dialogs.hpp"
 };
 
 //Functions
 class CfgFunctions
 {
-	#include "Rsc\Functions.h"
+	#include "Rsc\Functions.hpp"
 };
 
 //Debrief Screens

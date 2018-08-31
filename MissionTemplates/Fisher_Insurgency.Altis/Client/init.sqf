@@ -7,11 +7,16 @@
 */
 waitUntil {!isNull player && player isEqualTo player};
 
+private _startTime = diag_tickTime;
+
 diag_log "#--------------------------------------------------------------------------------#";
 diag_log "#---------------------- INSURGENCY CLIENT API INITIALIZING ----------------------#";
 diag_log "#--------------------------------------------------------------------------------#";
 
-private _startTime = diag_tickTime;
+diag_log "FISH_INS_CLIENT:: LOADING PLAYER VARIABLES";
+ins_respawn = false;
+ins_firstSpawn = true;
+diag_log "FISH_INS_CLIENT:: PLAYER VARIABLES LOADED";
 
 diag_log "FISH_INS_CLIENT:: LOADING PLAYER EVENT HANDLERS";
 player addEventHandler["Killed", {_this call fish_ins_fnc_onPlayerKilled}];

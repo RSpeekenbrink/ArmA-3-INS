@@ -20,10 +20,15 @@ params [
     ["_killer",objNull,[objNull]]
 ];
 
-disableSerialization;
-
 //Deal with scores
 //TODO
 
 //Show deathscreen and stuff
 cuttext["","WHITE OUT",5];
+
+//starting a "thread" to load all respawn stuff
+[] spawn {
+	sleep 6;
+	ins_respawn = true;
+	[] call fish_ins_fnc_showSpawnScreen;
+}

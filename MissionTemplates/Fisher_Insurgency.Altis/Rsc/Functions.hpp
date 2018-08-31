@@ -1,5 +1,5 @@
 /*
-    File:           Rsc\Functions.h
+    File:           Rsc\Functions.hpp
     Author:         Fisher
     Imported:       V0.1
     LastModified:   V0.1
@@ -14,5 +14,7 @@ class fish_ins
         file = "Client\functions";
         
         class onPlayerKilled {};
+        class onRespawn {};
+        class showSpawnScreen {};
     }
 }
